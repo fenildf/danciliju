@@ -23,7 +23,7 @@ public class Main {
         while (word != null) {
             j++;
             /**
-             * 去掉txt中的解释
+             * 去掉txt中的解释,得到要搜的单词
              */
             String[] strings = word.split(" ", 2);
             if (strings.length < 2) {
